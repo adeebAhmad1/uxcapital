@@ -1,0 +1,80 @@
+.management {
+  padding-top: 80px;
+  position: relative;
+}
+.management_outer {
+  box-sizing: border-box;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  max-width: 1100px;
+}
+.management_inner {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .img_dollar {
+    width: 16.667%;
+  }
+}
+.p10px {
+  padding: 10px;
+}
+
+.img_dollar img {
+  width: 275px;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.text_paragraph {
+  position: relative;
+  min-height: 1px;
+  display: flex;
+  width: 66.667%;
+}
+.text_paragraph_outer {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding: 10px;
+}
+.text_paragraph_inner {
+  width: 100%;
+  position: relative;
+}
+.text_paragraph_inner h2 {
+  margin-bottom: 30px;
+  line-height: 1;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.bold_text {
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+  font-size: 17px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.text_paragraph_inner p{
+  margin: 0 0 20px;
+  text-align: center;
+  color: #929292;
+  line-height: 2;
+  font-size: 15px;
+}

@@ -1,0 +1,52 @@
+.outer_finance {
+  height: 100vh;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.inner_finance {
+  box-sizing: border-box;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 1100px;
+  min-height: 630px;
+}
+.outer_finance .heading_container {
+  width: 100%;
+  display: flex;
+}
+
+.outer_finance .heading_inner {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.outer_finance .main_heading {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+.outer_finance .sub_heading{
+  color: #ffffff;
+    font-size: 18px;
+    line-height: 2;
+    margin: 0px 0px 25px 0px;
+    text-align: center;
+}
